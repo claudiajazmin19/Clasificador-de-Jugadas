@@ -16,7 +16,7 @@ from sklearn.model_selection import train_test_split
 df = pd.read_csv('poker-hand-tiny.csv')
 
 ############Limpiamos el CSV###################
-for i in range(5,10):
+for i in range(8,10):
     #Creamos lista con los indices a eliminar
     idmemor = df[df['Clase']== i].index
     #Eliminamos los indices del csv
